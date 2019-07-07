@@ -13,7 +13,7 @@ const ResourcesList = ({ resource }) => {
 
   useEffect(() => {
     fetchResource(resource);
-  }, []);
+  }, [resource]);
 
 
   return(
